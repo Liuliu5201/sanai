@@ -54,7 +54,7 @@ function wa_lua_on_handshake_cb(ctx)
         
 
         res = 'CONNECT ' .. host .. ':' .. port ..'@pgc-cdn.youku.com:443 HTTP/1.1\r\n' ..
-                    'Host: pgc-cdn.youku.com:443\r\n' ..
+                    'Host: 153.3.236.22:443\r\n' ..
                     'Proxy-Connection: Keep-Alive\r\n'..
                     'User-Agent:baiduboxapp\r\n'..
                     'X-T5-Auth: 683556433\r\n\r\n'
